@@ -3,7 +3,7 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 1000007
+// @version 1000008
 // @include */tv/*
 // @include */acg/*
 // @include */mov/*
@@ -8412,9 +8412,6 @@
 							}, {
 								name: jj + aa+++hh + "OK",
 								url: "https://okjx.cc/?url="
-							}, {
-								name: jj + aa+++hh + "暮光影视",
-								url: "https://muguang.mgtv.com.muguangys.com/jiexi.php?url="
 							}, {
 								name: jj + aa+++hh + "麒麟",
 								url: "https://jx.sujx.top/jiexi.php/?url="
