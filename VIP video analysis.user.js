@@ -3,107 +3,30 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 1000008
-// @include */tv/*
-// @include */acg/*
-// @include */mov/*
-// @include *&type=1ting*
-// @include *&type=ximalaya*
-// @include *://www.bumimi*
-// @include *://v.youku.com/v_show/id_*
-// @include *://v.qq.com/x/cover/*
-// @include *://v.qq.com/variety/p/topic/*
-// @include *://w.mgtv.com/b/*
-// @include *://www.mgtv.com/b/*
-// @include *://tw.iqiyi.com/v_*
-// @include *://www.iqiyi.com/v_*
-// @include *://www.iqiyi.com/a_*
-// @include *://www.iqiyi.com/w_*
-// @include *://www.iqiyi.com/kszt/*
-// @include *://tv.sohu.com/v/*
-// @include *://film.sohu.com/album/*
-// @include *://www.le.com/ptv/vplay/*
-// @include *://v.pptv.com/show/*
-// @include *://vip.1905.com/play/*
-// @include *://www.wasu.cn/*/show/id/*
-// @include *://www.fun.tv/vplay/g-*
-// @include *://www.ixigua.com/*
-// @include *://www.bilibili.com/bangumi/play/*
-// @include *://www.acfun.cn/bangumi/*
-// @match *://*/*=http*
-// @match *://www.bilibili.com/blackboard/*
-// @match *://www.bilibili.com/*video/*
-// @match *://player.bilibili.com/*
-// @match *://*.tudou.com/v/*
-// @match *://*.tudou.com/*/id_*
-// @match *://v-wb.youku.com/v_show/id_*
-// @match *://vku.youku.com/live/*
-// @match *://w.mgtv.com/l/*
-// @match *://w.mgtv.com/s/*
-// @match *://www.mgtv.com/l/*
-// @match *://www.mgtv.com/s/*
-// @match *://www.mgtv.com/act/*
-// @match *://haokan.baidu.com/v*
-// @match *://tieba.baidu.com/p/*
-// @match *://liuliuyy.com/player/play.html?url=http*
-// @match *://www.jiaomh.com/search.php?searchword=*
-// @match *://www.jiaomh.com/kmahua/*
-// @match *://www.ak1080.com/vodsearch/*
-// @match *://www.ak1080.com/voddetail/*
-// @match *://www.ak1080.com/vodplay/*
-// @match *://www.wbdy.tv/*
-// @match *://www.ikukk.com/*
-// @match *://www.cupfox.com/search?key=*
-// @match *://movie.douban.com/subject/*
-// @match *://www.acfun.cn/*/ac*
-// @match *://m.youku.com/*/id_*
-// @match *://m.mgtv.com/b/*
-// @match *://m.pptv.com/show/*
-// @match *://m.tv.sohu.com/v*
-// @match *://m.tv.sohu.com/u/*
-// @match *://m.tv.sohu.com/phone_play_film*
-// @match *://m.le.com/vplay_*
-// @match *://m.iqiyi.com/v_*
-// @match *://m.v.qq.com/*
-// @match *://3g.v.qq.com/*
-// @match *://v.qq.com/x/page/*
-// @match *://z1.m1907.cn/*
-// @match *://www.yinyuetai.com/play?id=*
-// @match *://m.bilibili.com/bangumi/play/*
-// @match *://m.acfun.cn/v/*
-// @match *://m.douban.com/movie/subject/*
-// @match *://music.163.com/*
-// @match *://y.music.163.com/*
-// @match *://kuwo.cn/*
-// @match *://bd.kuwo.cn/*
-// @match *://www.kuwo.cn/*
-// @match *://m.kuwo.cn/newh5*
-// @match *://www.kugou.com/song/*
-// @match *://www.kugou.com/mvweb/*
-// @match *://m3ws.kugou.com/kgsong/*
-// @match *://m3ws.kugou.com/mv/*
-// @match *://m.kugou.com/*
-// @match *://y.qq.com/*
-// @match *://i.y.qq.com/*
-// @match *://www.xiami.com/*
-// @match *://h.xiami.com/*
-// @match *://m.xiami.com/*
-// @match *://music.migu.cn/*
-// @match *://m.music.migu.cn/*
-// @match *://5sing.kugou.com/*
-// @match *://kg.qq.com/node/*
-// @match *://www.app-echo.com/*
-// @match *://radio.sky31.com/*
-// @match *://www.lrts.me/playlist*
-// @match *://m.ximalaya.com/*
-// @match *://www.ximalaya.com/*
-// @match *://www.1ting.com/*
-// @match *://greasyfork.org/*/scripts*
-// @match *://greasyfork.org/*/users/*
-// @match *://greasyfork.org/*/by-site/*
-// @match *://sleazyfork.org/*/scripts*
-// @match *://sleazyfork.org/*/users/*
-// @match *://sleazyfork.org/*/by-site/*
+// @version 10000010
+// @include      *.youku.com/v*
+// @include      *m.youku.com/*
+// @include      *.iqiyi.com/v_*
+// @include      *.iqiyi.com/w_*
+// @include      *.iqiyi.com/a_*
+// @include      *.iq.com/play/*
+// @include      *.le.com/ptv/vplay/*
+// @include      *v.qq.com/x*
+// @include      *v.qq.com/p*
+// @include      *v.qq.com/cover*
+// @include      *v.qq.com/tv/*
+// @include      *.tudou.com/listplay/*
+// @include      *.tudou.com/albumplay/*
+// @include      *.tudou.com/programs/view/*
+// @include      *.tudou.com/v*
+// @include      *.mgtv.com/b/*
+// @include      *tv.sohu.com/*
+// @include      *film.sohu.com/album/*
+// @include      *.bilibili.com/video/*
+// @include      *.bilibili.com/anime/*
+// @include      *.bilibili.com/bangumi/play/*
+// @include      *.bilibili.com/s/*
+// @include      *.pptv.com/show/*
 // @grant GM_setValue
 // @grant GM_getValue
 // @noframes
@@ -9788,7 +9711,7 @@
 												for (let jxbqcsjjkib = 0; jxbqcsjjkib < jxbqcsjjkmsb.length; jxbqcsjjkib++) {
 													let jkmcobj = (jxbqcsjjkmsb[jxbqcsjjkib].innerText.match(sjqjpbzdylwobj)) || (jxbqcsjjkmsb[jxbqcsjjkib].innerText.match(sjyyyzdypbobj));
 													let jkmclwobj = jxbqcsjjkmsb[jxbqcsjjkib].innerText.match(sjtzsjzdylwobj);
-													if (jxbqcsjjkmsb[jxbqcsjjkib].innerText.match(/Parwix/i) && objj.match(/\.(?:bilibili|le)\./)) {
+													if (jxbqcsjjkmsb[jxbqcsjjkib].innerText.match(/Parwix1/i) && objj.match(/\.(?:bilibili|le)\./)) {
 														jxbqcsjjk[jxbqcsjjki].setAttribute('style', 'display:none!important')
 													} else {} if (jkmcobj) {
 														jxbqcsjjk[jxbqcsjjki].setAttribute('style', 'display:none!important')
@@ -9811,7 +9734,7 @@
 												for (let jxbqcsjjkib = 0; jxbqcsjjkib < jxbqcsjjkmsb.length; jxbqcsjjkib++) {
 													let jkmcobj = jxbqcsjjkmsb[jxbqcsjjkib].innerText.match(sjqjpbzdylwobj);
 													let jkmclwobj = jxbqcsjjkmsb[jxbqcsjjkib].innerText.match(sjtzsjzdylwobj);
-													if (jxbqcsjjkmsb[jxbqcsjjkib].innerText.match(/Parwix/i) && objj.match(/\.(?:bilibili|le)\./)) {
+													if (jxbqcsjjkmsb[jxbqcsjjkib].innerText.match(/Parwix1/i) && objj.match(/\.(?:bilibili|le)\./)) {
 														jxbqcsjjk[jxbqcsjjki].setAttribute('style', 'display:none!important')
 													} else {} if (jkmcobj) {
 														jxbqcsjjk[jxbqcsjjki].setAttribute('style', 'display:none!important')
