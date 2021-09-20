@@ -3,7 +3,7 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 10000010
+// @version 10000011
 // @include      *.youku.com/v*
 // @include      *m.youku.com/*
 // @include      *.iqiyi.com/v_*
@@ -8330,8 +8330,11 @@
 								name: cc + aa+++gg + "视频选集",
 								vip: "视频选集"
 							}, {
-								name: jj + aa+++hh + "77电影",
-								url: "https://jx.77diany.com/?url="
+								name: jj + aa+++hh + "BDDYSF",
+								url: "https://www.bddysf.net/bddysfm3u8.php?url="
+							}, {
+								name: jj + aa+++hh + "小易影视",
+								url: "https://xy.irop.cn/jx/?url="
 							}, {
 								name: jj + aa+++hh + "OK",
 								url: "https://okjx.cc/?url="
