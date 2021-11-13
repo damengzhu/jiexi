@@ -3,7 +3,7 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 10000012
+// @version 20211111
 // @match *://v.youku.com/v_show/id_*
 // @match *://v.qq.com/x/cover/*
 // @match *://v.qq.com/*/p/topic/*
@@ -8340,23 +8340,11 @@
 								name: cc + aa+++gg + "视频选集",
 								vip: "视频选集"
 							}, {
-								name: jj + aa+++hh + "BDDYSF",
-								url: "https://www.bddysf.net/bddysfm3u8.php?url="
-							}, {
-								name: jj + aa+++hh + "小易影视",
-								url: "https://xy.irop.cn/jx/?url="
-							}, {
 								name: jj + aa+++hh + "OK",
 								url: "https://okjx.cc/?url="
 							}, {
 								name: jj + aa+++hh + "麒麟",
 								url: "https://jx.sujx.top/jiexi.php/?url="
-							}, {
-								name: jj + aa+++hh + "七夕",
-								url: "https://1.api.80tvs.cn/?url="
-							}, {
-								name: jj + aa+++hh + "348电影",
-								url: "https://jx3.mgtv.co/?url="
 							}, {
 								name: jj + aa+++hh + "5iMV",
 								url: "https://jx.5imv.net/m3u8.php?url="
@@ -8375,12 +8363,6 @@
 							}, {
 								name: jj + aa+++hh + "aidouer",
 								url: "https://jx.aidouer.net/?url="
-							}, {
-								name: jj + aa+++hh + "知心影视",
-								url: "https://jjx.7a11l.cn/?url="
-							}, {
-								name: jj + aa+++hh + "苗点影视",
-								url: "https://jiexi.msdv.cn/?url="
 							}, {
 								name: jj + aa+++hh + "M3U8TV",
 								url: "https://jx.m3u8.tv/jiexi/?url="
@@ -8403,14 +8385,8 @@
 								name: jj + aa+++hh + "冰豆",
 								url: "https://api.0746film.com/jiexi/?url="
 							}, {
-								name: jj + aa+++hh + "速搜影院",
-								url: "https://vip.susou.tv/player/?url="
-							}, {
 								name: jj + aa+++hh + "追剧达人",
 								url: "https://vip123kan.vip/m3u8.php?url="
-							}, {
-								name: jj + aa+++hh + "YiTV",
-								url: "https://jiexi.us/?url="
 							}, {
 								name: jj + aa+++hh + "沐白",
 								url: "https://www.miede.top/jiexi/?url="
@@ -8421,29 +8397,17 @@
 								name: jj + aa+++hh + "可乐",
 								url: "https://jx.keleapi.com/?url="
 							}, {
-								name: jj + aa+++hh + "乐喵",
-								url: "https://jx.hao-zsj.cn/dm/?url="
-							}, {
 								name: jj + aa+++hh + "Mao",
 								url: "https://lecurl.cn/?url="
 							}, {
 								name: jj + aa+++hh + "七哥",
 								url: "https://jx.mmkv.cn/tv.php?url="
 							}, {
-								name: jj + aa+++hh + "迪奥",
-								url: "https://api.1dior.cn/analysis/123/index.php?uid="
-							}, {
-								name: jj + aa+++hh + "欧米",
-								url: "https://jx13.omiys.com/?url="
-							}, {
 								name: jj + aa+++hh + "九播",
 								url: "https://vip.jiubojx.com/vip/?url="
 							}, {
 								name: jj + aa+++hh + "1dior",
 								url: "https://api.1dior.cn/analysis/123/index.php?uid=1428&my=afkruDFIYZ&url="
-							}, {
-								name: jj + aa+++hh + "月亮",
-								url: "https://api.yueliangjx.com/?url="
 							}, {
 								name: bb + aa+++hh + "618",
 								url: "https://jx.618g.com/?url="
