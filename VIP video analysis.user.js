@@ -3,7 +3,7 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 20211111
+// @version 20211220
 // @match *://v.youku.com/v_show/id_*
 // @match *://v.qq.com/x/cover/*
 // @match *://v.qq.com/*/p/topic/*
@@ -8352,9 +8352,6 @@
 								name: bb + aa+++hh + "Parwix",
 								url: "https://vip.parwix.com:4433/player/?url="
 							}, {
-								name: jj + aa+++hh + "思古",
-								url: "https://www.2692222.com/?url="
-							}, {
 								name: jj + aa+++hh + "乐多云",
 								url: "https://api.leduotv.com/wp-api/ifr.php?vid="
 							}, {
@@ -8388,20 +8385,11 @@
 								name: jj + aa+++hh + "追剧达人",
 								url: "https://vip123kan.vip/m3u8.php?url="
 							}, {
-								name: jj + aa+++hh + "沐白",
-								url: "https://www.miede.top/jiexi/?url="
-							}, {
 								name: jj + aa+++hh + "91",
 								url: "https://www.91jxs.com/jiexi/?url="
 							}, {
-								name: jj + aa+++hh + "可乐",
-								url: "https://jx.keleapi.com/?url="
-							}, {
 								name: jj + aa+++hh + "Mao",
 								url: "https://lecurl.cn/?url="
-							}, {
-								name: jj + aa+++hh + "七哥",
-								url: "https://jx.mmkv.cn/tv.php?url="
 							}, {
 								name: jj + aa+++hh + "九播",
 								url: "https://vip.jiubojx.com/vip/?url="
@@ -8409,23 +8397,11 @@
 								name: jj + aa+++hh + "1dior",
 								url: "https://api.1dior.cn/analysis/123/index.php?uid=1428&my=afkruDFIYZ&url="
 							}, {
-								name: bb + aa+++hh + "618",
-								url: "https://jx.618g.com/?url="
-							}, {
-								name: bb + aa+++hh + "狼云",
-								url: "https://jx.yaohuaxuan.com/?url="
-							}, {
 								name: bb + aa+++hh + "锦云",
 								url: "https://go.yh0523.cn/y.cy?url="
 							}, {
-								name: bb + aa+++hh + "陶颖",
-								url: "https://jx.vodjx.top/vip/?url="
-							}, {
 								name: ee + aa+++gg + "17云",
 								url: "http://17kyun.com/api.php?url="
-							}, {
-								name: ee + aa+++gg + "狂奔",
-								url: "http://k8aa.com/jx/index.php?url="
 							}, {
 								name: ee + aa+++gg + "丝瓜",
 								url: "http://www.asys.vip/jx/?url=",
@@ -8435,22 +8411,12 @@
 								url: "https://www.ikukk.com/?url=",
 								vip: "强制弹小窗"
 							}, {
-								name: ee + aa+++gg + "大白",
-								url: "http://api.myzch.cn/?url=",
-								vip: "强制弹小窗"
-							}, {
 								name: ee + aa+++gg + "盒子",
 								url: "http://jx5.178du.com/p1/?url=",
 								vip: "强制弹小窗"
 							}, {
 								name: cc + aa+++gg + "Youtube",
 								vip: "Youtube"
-							}, {
-								name: cc + aa+++gg + "闪电影视",
-								vip: "闪电影视"
-							}, {
-								name: cc + aa+++gg + "麻花影视",
-								vip: "麻花影视"
 							}, {
 								name: bb + aa+++hh + "自动嗅探",
 								vip: "手机米侠浏览器"
