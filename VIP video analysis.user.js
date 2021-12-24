@@ -3,7 +3,7 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 20211221
+// @version 20211224
 // @match *://v.youku.com/v_show/id_*
 // @match *://v.qq.com/x/cover/*
 // @match *://v.qq.com/*/p/topic/*
@@ -8342,6 +8342,9 @@
 							}, {
 								name: jj + aa+++hh + "大享影院",
 								url: "https://jx.13tv.top/?url="
+							}, {
+								name: jj + aa+++hh + "人人迷",
+								url: "https://jx.blbo.cc:4433/?url="
 							}, {
 								name: jj + aa+++hh + "OK",
 								url: "https://okjx.cc/?url="
