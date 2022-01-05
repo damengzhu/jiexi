@@ -8362,7 +8362,7 @@
 								url: "https://www.yemu.xyz/v/dmgs.php?url="
 							}, {
 								name: jj + aa+++hh + "8dys",
-								url: "http://vip.8bys.cn/?url="
+								url: "https://vip.8bys.cn/?url="
 							}, {
 								name: jj + aa+++hh + "麒麟",
 								url: "https://jx.sujx.top/jiexi.php/?url="
