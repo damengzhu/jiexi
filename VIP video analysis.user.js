@@ -3,7 +3,7 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 20211224
+// @version 20220105
 // @match *://v.youku.com/v_show/id_*
 // @match *://v.qq.com/x/cover/*
 // @match *://v.qq.com/*/p/topic/*
@@ -8349,6 +8349,21 @@
 								name: jj + aa+++hh + "OK",
 								url: "https://okjx.cc/?url="
 							}, {
+								name: jj + aa+++hh + "虾米",
+								url: "https://jx.xmflv.com/?url="
+							}, {
+								name: jj + aa+++hh + "七彩",
+								url: "https://jx.cctv-68.com:520/?url="
+							}, {
+								name: jj + aa+++hh + "1231d",
+								url: "https://jx.yunboys.cn/?url="
+							}, {
+								name: jj + aa+++hh + "夜幕",
+								url: "https://www.yemu.xyz/v/dmgs.php?url="
+							}, {
+								name: jj + aa+++hh + "8dys",
+								url: "http://vip.8bys.cn/?url="
+							}, {
 								name: jj + aa+++hh + "麒麟",
 								url: "https://jx.sujx.top/jiexi.php/?url="
 							}, {
@@ -9609,7 +9624,7 @@
 								(function() {
 									try {
 										const jxbqcsjjk = document.querySelectorAll('ul#httpsvipul li');
-										let sjtzsjzdylwobj = /(?:片库|爱酷|蓝影|放开|师兄|麻瓜)/, sjqjpbzdylwobj = /(?:丽江|云栖|云波|时光|锦云|说说|回响|夜空|星影|1717|8090|无名|墨鱼|哔哩|陶颖|诺讯|大亨|小蒋|玩嗨|九八|恐龙|极速|刺客|七彩|音萌|恶灵|文笔|皮革|对接|司鼓|教案|挚爱|报道|Youtube|闪电影视)/i, sjyyyzdypbobj = /(?:久已|看剧|玻璃|爱跟|海绵|一零|六六|我爱|神马|解啦|七彩|久播|和巴|恶灵|吉塔|盖斯|CKP|和巴|狼云|迪奥|618G?|256|365|973|星驰|黑云|九八|金桥)/i;
+										let sjtzsjzdylwobj = /(?:片库|爱酷|蓝影|放开|师兄|麻瓜)/, sjqjpbzdylwobj = /(?:丽江|云栖|云波|时光|锦云|说说|回响|夜空|星影|1717|8090|无名|墨鱼|哔哩|陶颖|诺讯|大亨|小蒋|玩嗨|九八|恐龙|极速|刺客|音萌|恶灵|文笔|皮革|对接|司鼓|教案|挚爱|报道|Youtube|闪电影视)/i, sjyyyzdypbobj = /(?:久已|看剧|玻璃|爱跟|海绵|一零|六六|我爱|神马|解啦|久播|和巴|恶灵|吉塔|盖斯|CKP|和巴|狼云|迪奥|618G?|256|365|973|星驰|黑云|九八|金桥)/i;
 										for (let jxbqcsjjki = 0; jxbqcsjjki < jxbqcsjjk.length; jxbqcsjjki++) {
 											try {
 												if (document.querySelector("ul#httpsvipul>li:nth-child(" + localStorage.getItem('httpsjk') + ")").style.display == 'none') {
