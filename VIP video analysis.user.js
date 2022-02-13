@@ -8403,9 +8403,6 @@
 								name: jj + aa+++hh + "尊享",
 								url: "https://player.maqq.cn/?url="
 							}, {
-								name: jj + aa+++hh + "冰豆",
-								url: "https://api.0746film.com/jiexi/?url="
-							}, {
 								name: jj + aa+++hh + "追剧达人",
 								url: "https://vip123kan.vip/m3u8.php?url="
 							}, {
