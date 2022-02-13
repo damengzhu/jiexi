@@ -3,7 +3,7 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 20220105
+// @version 20220213
 // @match *://v.youku.com/v_show/id_*
 // @match *://v.qq.com/x/cover/*
 // @match *://v.qq.com/*/p/topic/*
@@ -8343,11 +8343,20 @@
 								name: jj + aa+++hh + "大享影院",
 								url: "https://jx.13tv.top/?url="
 							}, {
-								name: jj + aa+++hh + "人人迷",
-								url: "https://jx.blbo.cc:4433/?url="
-							}, {
 								name: jj + aa+++hh + "OK",
 								url: "https://okjx.cc/?url="
+							}, {
+								name: jj + aa+++hh + "blbo",
+								url: "https://jx.blbo.cc:4433/?url="
+							}, {
+								name: jj + aa+++hh + "追剧喵",
+								url: "https://jiexi.zjmiao.com/?url="
+							}, {
+								name: jj + aa+++hh + "anfun",
+								url: "https://jx.anfuns.cn/?url="
+							}, {
+								name: jj + aa+++hh + "mtosz",
+								url: "https://www.mtosz.com/m3u8.php?url="
 							}, {
 								name: jj + aa+++hh + "虾米",
 								url: "https://jx.xmflv.com/?url="
@@ -8357,12 +8366,6 @@
 							}, {
 								name: jj + aa+++hh + "1231d",
 								url: "https://jx.yunboys.cn/?url="
-							}, {
-								name: jj + aa+++hh + "夜幕",
-								url: "https://www.yemu.xyz/v/dmgs.php?url="
-							}, {
-								name: jj + aa+++hh + "8dys",
-								url: "https://vip.8bys.cn/?url="
 							}, {
 								name: jj + aa+++hh + "麒麟",
 								url: "https://jx.sujx.top/jiexi.php/?url="
@@ -8411,9 +8414,6 @@
 							}, {
 								name: jj + aa+++hh + "Mao",
 								url: "https://lecurl.cn/?url="
-							}, {
-								name: jj + aa+++hh + "九播",
-								url: "https://vip.jiubojx.com/vip/?url="
 							}, {
 								name: jj + aa+++hh + "1dior",
 								url: "https://api.1dior.cn/analysis/123/index.php?uid=1428&my=afkruDFIYZ&url="
