@@ -3,7 +3,7 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 20220213
+// @version 20220314
 // @match *://v.youku.com/v_show/id_*
 // @match *://v.qq.com/x/cover/*
 // @match *://v.qq.com/*/p/topic/*
@@ -8343,17 +8343,26 @@
 								name: jj + aa+++hh + "大享影院",
 								url: "https://jx.13tv.top/?url="
 							}, {
+								name: jj + aa+++hh + "奇粹视频",
+								url: "http://xbfq.ikuwoo.cn/?url="
+							}, {
+								name: jj + aa+++hh + "初心影视",
+								url: "https://www.5znn.xyz/m3u8.php?url="
+							}, {
+								name: jj + aa+++hh + "555电影",
+								url: "https://zyz.manduhu.com/player/?url="
+							}, {
 								name: jj + aa+++hh + "OK",
 								url: "https://okjx.cc/?url="
+							}, {
+								name: jj + aa+++hh + "虾米",
+								url: "https://jx.xmflv.com/?url="
 							}, {
 								name: jj + aa+++hh + "blbo",
 								url: "https://jx.blbo.cc:4433/?url="
 							}, {
 								name: jj + aa+++hh + "追剧喵",
 								url: "https://jiexi.zjmiao.com/?url="
-							}, {
-								name: jj + aa+++hh + "anfun",
-								url: "https://jx.anfuns.cn/?url="
 							}, {
 								name: jj + aa+++hh + "mtosz",
 								url: "https://www.mtosz.com/m3u8.php?url="
