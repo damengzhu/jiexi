@@ -3,7 +3,7 @@
 // @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 20220314
+// @version 20220414
 // @match *://v.youku.com/v_show/id_*
 // @match *://v.qq.com/x/cover/*
 // @match *://v.qq.com/*/p/topic/*
@@ -8343,41 +8343,14 @@
 								name: jj + aa+++hh + "大享影院",
 								url: "https://jx.13tv.top/?url="
 							}, {
-								name: jj + aa+++hh + "奇粹视频",
-								url: "http://xbfq.ikuwoo.cn/?url="
-							}, {
-								name: jj + aa+++hh + "初心影视",
-								url: "https://www.5znn.xyz/m3u8.php?url="
-							}, {
-								name: jj + aa+++hh + "555电影",
-								url: "https://zyz.manduhu.com/player/?url="
-							}, {
 								name: jj + aa+++hh + "OK",
 								url: "https://okjx.cc/?url="
-							}, {
-								name: jj + aa+++hh + "虾米",
-								url: "https://jx.xmflv.com/?url="
 							}, {
 								name: jj + aa+++hh + "blbo",
 								url: "https://jx.blbo.cc:4433/?url="
 							}, {
-								name: jj + aa+++hh + "追剧喵",
-								url: "https://jiexi.zjmiao.com/?url="
-							}, {
 								name: jj + aa+++hh + "mtosz",
 								url: "https://www.mtosz.com/m3u8.php?url="
-							}, {
-								name: jj + aa+++hh + "虾米",
-								url: "https://jx.xmflv.com/?url="
-							}, {
-								name: jj + aa+++hh + "七彩",
-								url: "https://jx.cctv-68.com:520/?url="
-							}, {
-								name: jj + aa+++hh + "1231d",
-								url: "https://jx.yunboys.cn/?url="
-							}, {
-								name: jj + aa+++hh + "麒麟",
-								url: "https://jx.sujx.top/jiexi.php/?url="
 							}, {
 								name: jj + aa+++hh + "5iMV",
 								url: "https://jx.5imv.net/m3u8.php?url="
@@ -8400,18 +8373,6 @@
 								name: jj + aa+++hh + "dmjx",
 								url: "https://dmjx.m3u8.tv/?url="
 							}, {
-								name: jj + aa+++hh + "4kdv",
-								url: "https://jx.4kdv.com/?url="
-							}, {
-								name: jj + aa+++hh + "江湖云",
-								url: "https://api.jhdyw.vip/?url="
-							}, {
-								name: jj + aa+++hh + "听乐云",
-								url: "https://jx.dj6u.com/?url="
-							}, {
-								name: jj + aa+++hh + "尊享",
-								url: "https://player.maqq.cn/?url="
-							}, {
 								name: jj + aa+++hh + "追剧达人",
 								url: "https://vip123kan.vip/m3u8.php?url="
 							}, {
@@ -8420,9 +8381,6 @@
 							}, {
 								name: jj + aa+++hh + "Mao",
 								url: "https://lecurl.cn/?url="
-							}, {
-								name: jj + aa+++hh + "1dior",
-								url: "https://api.1dior.cn/analysis/123/index.php?uid=1428&my=afkruDFIYZ&url="
 							}, {
 								name: bb + aa+++hh + "锦云",
 								url: "https://go.yh0523.cn/y.cy?url="
