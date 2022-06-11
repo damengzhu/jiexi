@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name VIP video analysis
-// @description 如果视频播放不了，但是却可以嗅探idm下载，可以通过嗅探调用"弹弹play概念版"APP播放，APP播放器切换exo内核
+// @description 视频解析
 // @contributionURL https://gitee.com/q2257227289/00/raw/master/963540817-1.png
 // @author jxb
-// @version 20220430
+// @version 20220611
 // @match *://v.youku.com/v_show/id_*
 // @match *://v.qq.com/x/cover/*
 // @match *://v.qq.com/*/p/topic/*
@@ -8355,9 +8355,6 @@
 								name: jj + aa+++hh + "mtosz",
 								url: "https://www.mtosz.com/m3u8.php?url="
 							}, {
-								name: jj + aa+++hh + "5iMV",
-								url: "https://jx.5imv.net/m3u8.php?url="
-							}, {
 								name: bb + aa+++hh + "Parwix",
 								url: "https://vip.parwix.com:4433/player/?url="
 							}, {
@@ -8375,9 +8372,6 @@
 							}, {
 								name: jj + aa+++hh + "dmjx",
 								url: "https://dmjx.m3u8.tv/?url="
-							}, {
-								name: jj + aa+++hh + "追剧达人",
-								url: "https://vip123kan.vip/m3u8.php?url="
 							}, {
 								name: jj + aa+++hh + "91",
 								url: "https://www.91jxs.com/jiexi/?url="
